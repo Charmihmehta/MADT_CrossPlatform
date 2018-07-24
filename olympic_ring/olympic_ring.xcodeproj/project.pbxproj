@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD53FE82106362B001D81CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD53FE72106362B001D81CA /* AppDelegate.swift */; };
+		9BD53FEA2106362B001D81CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD53FE92106362B001D81CA /* ViewController.swift */; };
+		9BD53FED2106362B001D81CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD53FEB2106362B001D81CA /* Main.storyboard */; };
+		9BD53FEF2106363C001D81CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD53FEE2106363C001D81CA /* Assets.xcassets */; };
+		9BD53FF22106363C001D81CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD53FF02106363C001D81CA /* LaunchScreen.storyboard */; };
+		9BD53FFD2106363D001D81CA /* olympic_ringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD53FFC2106363D001D81CA /* olympic_ringTests.swift */; };
+		9BD540082106363D001D81CA /* olympic_ringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD540072106363D001D81CA /* olympic_ringUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD53FF92106363D001D81CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD53FDC2106362B001D81CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD53FE32106362B001D81CA;
+			remoteInfo = olympic_ring;
+		};
+		9BD540042106363D001D81CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD53FDC2106362B001D81CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD53FE32106362B001D81CA;
+			remoteInfo = olympic_ring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BD53FE42106362B001D81CA /* olympic_ring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olympic_ring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD53FE72106362B001D81CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BD53FE92106362B001D81CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BD53FEC2106362B001D81CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD53FEE2106363C001D81CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD53FF12106363C001D81CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BD53FF32106363C001D81CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD53FF82106363D001D81CA /* olympic_ringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olympic_ringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD53FFC2106363D001D81CA /* olympic_ringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olympic_ringTests.swift; sourceTree = "<group>"; };
+		9BD53FFE2106363D001D81CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD540032106363D001D81CA /* olympic_ringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olympic_ringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD540072106363D001D81CA /* olympic_ringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olympic_ringUITests.swift; sourceTree = "<group>"; };
+		9BD540092106363D001D81CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD53FE12106362B001D81CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD53FF52106363D001D81CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD540002106363D001D81CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD53FDB2106362B001D81CA = {
+			isa = PBXGroup;
+			children = (
+				9BD53FE62106362B001D81CA /* olympic_ring */,
+				9BD53FFB2106363D001D81CA /* olympic_ringTests */,
+				9BD540062106363D001D81CA /* olympic_ringUITests */,
+				9BD53FE52106362B001D81CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD53FE52106362B001D81CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD53FE42106362B001D81CA /* olympic_ring.app */,
+				9BD53FF82106363D001D81CA /* olympic_ringTests.xctest */,
+				9BD540032106363D001D81CA /* olympic_ringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD53FE62106362B001D81CA /* olympic_ring */ = {
+			isa = PBXGroup;
+			children = (
+				9BD53FE72106362B001D81CA /* AppDelegate.swift */,
+				9BD53FE92106362B001D81CA /* ViewController.swift */,
+				9BD53FEB2106362B001D81CA /* Main.storyboard */,
+				9BD53FEE2106363C001D81CA /* Assets.xcassets */,
+				9BD53FF02106363C001D81CA /* LaunchScreen.storyboard */,
+				9BD53FF32106363C001D81CA /* Info.plist */,
+			);
+			path = olympic_ring;
+			sourceTree = "<group>";
+		};
+		9BD53FFB2106363D001D81CA /* olympic_ringTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD53FFC2106363D001D81CA /* olympic_ringTests.swift */,
+				9BD53FFE2106363D001D81CA /* Info.plist */,
+			);
+			path = olympic_ringTests;
+			sourceTree = "<group>";
+		};
+		9BD540062106363D001D81CA /* olympic_ringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD540072106363D001D81CA /* olympic_ringUITests.swift */,
+				9BD540092106363D001D81CA /* Info.plist */,
+			);
+			path = olympic_ringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD53FE32106362B001D81CA /* olympic_ring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD5400C2106363D001D81CA /* Build configuration list for PBXNativeTarget "olympic_ring" */;
+			buildPhases = (
+				9BD53FE02106362B001D81CA /* Sources */,
+				9BD53FE12106362B001D81CA /* Frameworks */,
+				9BD53FE22106362B001D81CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = olympic_ring;
+			productName = olympic_ring;
+			productReference = 9BD53FE42106362B001D81CA /* olympic_ring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD53FF72106363D001D81CA /* olympic_ringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD5400F2106363D001D81CA /* Build configuration list for PBXNativeTarget "olympic_ringTests" */;
+			buildPhases = (
+				9BD53FF42106363D001D81CA /* Sources */,
+				9BD53FF52106363D001D81CA /* Frameworks */,
+				9BD53FF62106363D001D81CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD53FFA2106363D001D81CA /* PBXTargetDependency */,
+			);
+			name = olympic_ringTests;
+			productName = olympic_ringTests;
+			productReference = 9BD53FF82106363D001D81CA /* olympic_ringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BD540022106363D001D81CA /* olympic_ringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD540122106363D001D81CA /* Build configuration list for PBXNativeTarget "olympic_ringUITests" */;
+			buildPhases = (
+				9BD53FFF2106363D001D81CA /* Sources */,
+				9BD540002106363D001D81CA /* Frameworks */,
+				9BD540012106363D001D81CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD540052106363D001D81CA /* PBXTargetDependency */,
+			);
+			name = olympic_ringUITests;
+			productName = olympic_ringUITests;
+			productReference = 9BD540032106363D001D81CA /* olympic_ringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD53FDC2106362B001D81CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9BD53FE32106362B001D81CA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9BD53FF72106363D001D81CA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9BD53FE32106362B001D81CA;
+					};
+					9BD540022106363D001D81CA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9BD53FE32106362B001D81CA;
+					};
+				};
+			};
+			buildConfigurationList = 9BD53FDF2106362B001D81CA /* Build configuration list for PBXProject "olympic_ring" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD53FDB2106362B001D81CA;
+			productRefGroup = 9BD53FE52106362B001D81CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD53FE32106362B001D81CA /* olympic_ring */,
+				9BD53FF72106363D001D81CA /* olympic_ringTests */,
+				9BD540022106363D001D81CA /* olympic_ringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD53FE22106362B001D81CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD53FF22106363C001D81CA /* LaunchScreen.storyboard in Resources */,
+				9BD53FEF2106363C001D81CA /* Assets.xcassets in Resources */,
+				9BD53FED2106362B001D81CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD53FF62106363D001D81CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD540012106363D001D81CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD53FE02106362B001D81CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD53FEA2106362B001D81CA /* ViewController.swift in Sources */,
+				9BD53FE82106362B001D81CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD53FF42106363D001D81CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD53FFD2106363D001D81CA /* olympic_ringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD53FFF2106363D001D81CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD540082106363D001D81CA /* olympic_ringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD53FFA2106363D001D81CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD53FE32106362B001D81CA /* olympic_ring */;
+			targetProxy = 9BD53FF92106363D001D81CA /* PBXContainerItemProxy */;
+		};
+		9BD540052106363D001D81CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD53FE32106362B001D81CA /* olympic_ring */;
+			targetProxy = 9BD540042106363D001D81CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BD53FEB2106362B001D81CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD53FEC2106362B001D81CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BD53FF02106363C001D81CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD53FF12106363C001D81CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD5400A2106363D001D81CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BD5400B2106363D001D81CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD5400D2106363D001D81CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = olympic_ring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.olympic-ring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BD5400E2106363D001D81CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = olympic_ring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.olympic-ring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BD540102106363D001D81CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = olympic_ringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.olympic-ringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olympic_ring.app/olympic_ring";
+			};
+			name = Debug;
+		};
+		9BD540112106363D001D81CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = olympic_ringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.olympic-ringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olympic_ring.app/olympic_ring";
+			};
+			name = Release;
+		};
+		9BD540132106363D001D81CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = olympic_ringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.olympic-ringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = olympic_ring;
+			};
+			name = Debug;
+		};
+		9BD540142106363D001D81CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = olympic_ringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.olympic-ringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = olympic_ring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD53FDF2106362B001D81CA /* Build configuration list for PBXProject "olympic_ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD5400A2106363D001D81CA /* Debug */,
+				9BD5400B2106363D001D81CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD5400C2106363D001D81CA /* Build configuration list for PBXNativeTarget "olympic_ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD5400D2106363D001D81CA /* Debug */,
+				9BD5400E2106363D001D81CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD5400F2106363D001D81CA /* Build configuration list for PBXNativeTarget "olympic_ringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD540102106363D001D81CA /* Debug */,
+				9BD540112106363D001D81CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD540122106363D001D81CA /* Build configuration list for PBXNativeTarget "olympic_ringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD540132106363D001D81CA /* Debug */,
+				9BD540142106363D001D81CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD53FDC2106362B001D81CA /* Project object */;
+}
